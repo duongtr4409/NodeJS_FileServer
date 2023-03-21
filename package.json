@@ -1,0 +1,31 @@
+{
+  "name": "fileserver",
+  "version": "1.0.0",
+  "description": "File Server",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/index.js",
+    "debug": "nodemon --inspect src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/duongtr4409/NodeJS_FileServer.git"
+  },
+  "keywords": [
+    "FileServer"
+  ],
+  "author": "DuowngTora",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/duongtr4409/NodeJS_FileServer/issues"
+  },
+  "homepage": "https://github.com/duongtr4409/NodeJS_FileServer#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.21"
+  }
+}
