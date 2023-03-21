@@ -6,6 +6,9 @@ const port = 3000;
 // logs http request: morgan npm
 app.use(morgan('combined'));
 
+// set static file
+app.use(express.static('C:\\Users\\DuowngTora\\Pictures\\Saved Pictures'))
+
 app.get('/', (req, res) => {
   res.send('Hello World!');
 })
